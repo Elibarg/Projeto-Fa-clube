@@ -1,0 +1,56 @@
+body
+{
+    margin: 0 auto;
+    font-family: "Century Gothic",sans-serif;
+}
+/* CONFIGURAÇÕES GERAIS**/
+/* CABEÇALHO*/
+header
+{
+    height: 170px;
+    background-color: #b30c0c;
+}
+header img
+{
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+header h1
+{
+    float: left;
+    height: 50px ;
+    font-size: 60px;
+    color: #fff;
+}
+
+nav
+{
+    background-color: #962323;
+    height: 100px;
+    width: 100%;
+    float: left;
+}
+nav a
+{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+nav .opcao
+{
+    float: left;
+    width: 300px;
+    padding: 10px;
+    font-size: 30px;
+}
+section{
+    clear: both;
+    min-height: 367px;
+    width: 100%;
+    margin-top: 0px;
+}
+button{
+    height: 100px;
+}
