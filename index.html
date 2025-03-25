@@ -1,51 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fã clube</title>
+    <title>Fã Clube de RPG</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/PaginaInicial.css">
 </head>
 <body>
     <header>
         <img src="img/logo.png" alt="Logo fan clube">
-        <h1> Nome do clube</h1>
+        <h1>Nome do Clube de RPG</h1>
+        <img class="login" src="img/login.png" alt="Login fan clube">
     </header>
-    <nav> 
-            <a href="index.html"><div class="opcao">Início</div></a>
-            <a href="html/jogos.html"><div class="opcao">Jogos</div></a>
-            <a href="html/comunidade.html"><div class="opcao">Comunidade</div></a>
-            <a href="html/calendario.html"><div class="opcao">Calendario de Eventos</div></a>
+    <nav>
+        <a href="index.html"><div class="opcao">Início</div></a>
+        <a href="html/jogos.html"><div class="opcao">Jogos</div></a>
+        <a href="html/comunidade.html"><div class="opcao">Comunidade</div></a>
+        <a href="html/calendario.html"><div class="opcao">Calendário de Eventos</div></a>
     </nav>
-    <section> 
-       <!-- banner -->
-        <div class="banner"></div>
-
-        <div class="ImagensInterativaInic">
-            <a  href="html/jogos.html"> 
-                <img class="aq" src="img/criar mesa.jpg" alt="botão criar mesa">
-                <!-- <div class="TextoInterativo">Crira mesa</div> -->
-            </a>
-            <a href="html/jogos.html"> 
-                <img class="aq" src="img/criar mesa.jpg" alt="botão criar mesa">
-                <!-- <div class="TextoInterativo">Crira mesa</div> -->
-            </a>
-            <a href="html/jogos.html"> 
-                <img class="aq" src="img/criar mesa.jpg" alt="botão criar mesa">
-                <!-- <div class="TextoInterativo">Crira mesa</div> -->
-            </a>
-            <a href="html/jogos.html"> 
-                <img class="aq" src="img/criar mesa.jpg" alt="botão criar mesa">
-                <!-- <div class="TextoInterativo">Crira mesa</div> -->
-            </a>
-            
-
+    
+    <section>
+        <!-- Banner Rotativo -->
+        <div class="banner">
+            <img src="img/banner1.jpg" alt="Torneio de RPG">
+            <img src="img/banner2.jpg" alt="Novas Campanhas Abertas">
+            <img src="img/banner3.jpg" alt="Encontros Semanais">
         </div>
-        <div class="UltimasNoticias">
 
+        <!-- Botões de Ação Rápida -->
+        <div class="acoes-rapidas">
+            <a href="html/jogos.html" class="botao">Entrar em um Jogo</a>
+            <a href="html/criar_campanha.html" class="botao">Criar Novo Jogo</a>
+            <a href="html/comunidade.html" class="botao">Junte-se à Comunidade</a>
+        </div>
+
+        <!-- Últimas Notícias -->
+        <div class="ultimas-noticias">
+            <h2>Últimas Notícias</h2>
+            <ul>
+                <li><a href="#">Novo evento de Dungeon Master essa semana!</a></li>
+                <li><a href="#">Guia de Personagens atualizado</a></li>
+                <li><a href="#">Inscrições abertas para o Torneio de RPG</a></li>
+            </ul>
         </div>
     </section>
-    <footer></footer>
+    
+    <footer>
+        <p>&copy; 2025 Fã Clube de RPG - Todos os direitos reservados</p>
+    </footer>
 </body>
 </html>
