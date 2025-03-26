@@ -16,17 +16,54 @@ header {
     display: flex;
     align-items: center;
     padding: 0 20px;
+    position: relative;
 }
 header img {
     height: 150px;
     width: 150px;
-    margin-right: 20px;
+}
+.login
+{
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   height: 85px;
+   width: 85px;
 }
 header h1 {
     font-size: 60px;
     color: #fff;
+    flex: 1;
+    text-align: center;
+    margin: 0;
 }
-
+section p
+{
+    clear: both;
+    text-align: center;
+    margin: 10px 80px;
+}
+section
+{
+    clear: both;
+    min-height: 367px;
+    width: 100%;
+    margin-top: 0px;
+}
+h2
+{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+footer
+{
+    background-color: #962323;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
 /* Menu de Navegação */
 nav {
     background-color: #962323;
@@ -45,8 +82,4 @@ nav a {
 nav a:hover {
     background-color: #b30c0c;
     border-radius: 5px;
-}
-footer
-{
-    padding: 5px;
 }
