@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/Cadastor.css">
 </head>
 <body>
     <header>
@@ -12,8 +13,26 @@
         <h1> Nome do clube</h1>
         <img class="login" src="../img/login.png" alt="Login fan clube">
     </header>
+    <section class="cadastro-container">
+        <h2>Crie sua Conta</h2>
+        <form action="#" method="POST" class="fundoDoForm">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>
 
-    <section> </section>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <label for="confirmar_senha">Confirmar Senha:</label>
+            <input type="password" id="confirmar_senha" name="confirmar_senha" required>
+
+            <a href="../index.html"></a> <button type="submit">Cadastrar</button>
+        </form>
+
+        <p>Já tem uma conta? <a href="login.html">Faça login</a></p>
+    </section>
     <footer><p>&copy; 2025 Fã Clube de RPG - Todos os direitos reservados</p></footer>
 </body>
 </html>

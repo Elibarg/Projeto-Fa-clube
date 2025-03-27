@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comunidade</title>
+    <title>Perfil</title>
     <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/PaginaComunidade.css">
+    <link rel="stylesheet" href="../css/perfil.css">
 </head>
 <body>
     <header>
         <img src="../img/logo.png" alt="Logo fan clube">
         <h1> Nome do clube</h1>
-        <a href="../html/perfil.html"><img class="login" src="../img/login.png" alt="Login fan clube"></a>
+        <img class="login" src="../img/login.png" alt="Login fan clube">
     </header>
     <nav> 
         <a href="../index.html"><div class="opcao">Início</div></a>
@@ -20,19 +20,23 @@
         <a href="../html/faleconosco.html"><div class="opcao">Fale Conosco</div></a>
         <a href="../html/calendario.html"><div class="opcao">Calendario de Eventos</div></a>
     </nav>
-    <section class="forum-container">
-        <h2>Fórum da Comunidade</h2>
-        <div class="forum-topico">
-            <h3><a href="#">Discussão sobre novos sistemas de RPG</a></h3>
-            <p>Última resposta por: MestreRPG - há 2 horas</p>
+      <!-- Seção do Perfil -->
+      <section class="perfil-container">
+        <div class="perfil-info">
+            <img src="foto-perfil.jpg" alt="Foto do Usuário" class="foto-perfil">
+            <h2>Nome do Usuário</h2>
+            <p>Email: usuario@email.com</p>
+            <p>Data de Cadastro: 01/01/2024</p>
+            <p>Nível: 5</p>
         </div>
-        <div class="forum-topico">
-            <h3><a href="#">Melhores personagens para iniciantes</a></h3>
-            <p>Última resposta por: Player1 - há 5 minutos</p>
-        </div>
-        <div class="forum-topico">
-            <h3><a href="#">Eventos presenciais: Qual cidade você quer?</a></h3>
-            <p>Última resposta por: AventurasXP - há 1 dia</p>
+
+        <div class="historico">
+            <h2>Histórico de Atividades</h2>
+            <ul>
+                <li>Comentou no fórum sobre "Novo jogo lançado!"</li>
+                <li>Participou de uma votação na Comunidade</li>
+                <li>Atualizou a foto de perfil</li>
+            </ul>
         </div>
     </section>
     <footer><p>&copy; 2025 Fã Clube de RPG - Todos os direitos reservados</p></footer>

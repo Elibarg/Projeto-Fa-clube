@@ -1,7 +1,14 @@
+.fundoDoForm
+{
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+}
 /* Container do Formulário */
-.campanha-container {
-    width: 80%;
-    margin: 20px auto;
+.login-container {
+    width: 40%;
+    margin: 50px auto;
     background: white;
     padding: 20px;
     border-radius: 10px;
@@ -9,7 +16,7 @@
     text-align: center;
 }
 
-.campanha-container h2 {
+.login-container h2 {
     color: #b30c0c;
     margin-bottom: 20px;
 }
@@ -25,19 +32,15 @@ label {
     font-size: 18px;
     font-weight: bold;
     margin: 10px 0 5px;
-    color: #333;
+    color: #ffffff;
 }
 
-input, textarea, select {
+input {
     width: 80%;
     padding: 10px;
     border: 2px solid #b30c0c;
     border-radius: 5px;
     font-size: 16px;
-}
-
-textarea {
-    resize: none;
 }
 
 button {
@@ -54,4 +57,20 @@ button {
 
 button:hover {
     background-color: #962323;
+}
+
+/* Links de Cadastro e Esqueceu a Senha */
+p {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+p a {
+    color: #b30c0c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
 }

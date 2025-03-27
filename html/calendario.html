@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calendario</title>
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/PaginaCalendario.css">
 </head>
 <body>
     <header>
         <img src="../img/logo.png" alt="Logo fan clube">
         <h1> Nome do clube</h1>
-        <img class="login" src="../img/login.png" alt="Login fan clube">
+        <a href="../html/perfil.html"><img class="login" src="../img/login.png" alt="Login fan clube"></a>
     </header>
     <nav> 
         <a href="../index.html"><div class="opcao">Início</div></a>
@@ -19,7 +20,46 @@
         <a href="../html/faleconosco.html"><div class="opcao">Fale Conosco</div></a>
         <a href="../html/calendario.html"><div class="opcao">Calendario de Eventos</div></a>
     </nav>
-    <section> </section>
+    <section class="calendario-container">
+        <h2>Próximos Eventos</h2>
+
+        <table class="calendario">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Evento</th>
+                    <th>Local</th>
+                    <th>Detalhes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10/04/2025</td>
+                    <td>Campeonato de RPG</td>
+                    <td>Online</td>
+                    <td><a href="#">Mais Informações</a></td>
+                </tr>
+                <tr>
+                    <td>15/04/2025</td>
+                    <td>Encontro de Fãs</td>
+                    <td>Online</td>
+                    <td><a href="#">Mais Informações</a></td>
+                </tr>
+                <tr>
+                    <td>22/04/2025</td>
+                    <td>Live Especial</td>
+                    <td>Online</td>
+                    <td><a href="#">Mais Informações</a></td>
+                </tr>
+                <tr>
+                    <td>30/04/2025</td>
+                    <td>Maratona de Jogos</td>
+                    <td>Online</td>
+                    <td><a href="#">Mais Informações</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
     <footer><p>&copy; 2025 Fã Clube de RPG - Todos os direitos reservados</p></footer>
 </body>
 </html>

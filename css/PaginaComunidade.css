@@ -1,0 +1,28 @@
+/* Fórum da Comunidade */
+.forum-container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.forum-container h2 {
+    text-align: center;
+    color: #b30c0c;
+}
+.forum-topico {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.forum-topico h3 a {
+    text-decoration: none;
+    color: #962323;
+}
+.forum-topico h3 a:hover {
+    color: #b30c0c;
+}
+.forum-topico p {
+    font-size: 14px;
+    color: #666;
+}
